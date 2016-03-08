@@ -20,7 +20,7 @@ public class Parser {
 	private StringBuffer solver;
 	private ArrayList<StringBuffer> process;
 	
-	private String logID;
+	private String logID; 
 	
 	private BufferedReader br;
 
