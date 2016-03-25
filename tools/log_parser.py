@@ -1,8 +1,7 @@
-# /usr/bin/python2.7
+#!/usr/bin/python
 # coding=utf-8
 
 import os
-
 
 class LogParser:
     def __init__(self, log_file):
@@ -15,9 +14,9 @@ class LogParser:
         self.ind = ""
         if not os.path.exists(log_file):
             raise Exception("ERROR: No such file %s" % log_file)
-        self.parse()
+        self.__parse()
 
-    def parse(self):
+    def __parse(self):
         log_file = open(self.log_file, mode='r')
         content = log_file.read()
         log_file.close()
