@@ -219,7 +219,7 @@ class LogParser:
             else:
                 start = True
             while not inner_done:
-                print net[loc]
+                # print net[loc]
                 if net[loc] == " " and start == False:
                     pass
                 elif net[loc] == " " and start == True:
