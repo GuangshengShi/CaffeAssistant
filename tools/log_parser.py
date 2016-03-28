@@ -343,6 +343,7 @@ class LogParser:
         pass
 
 if __name__ == "__main__":
-    parser = LogParser("../../log")
+    import sys
+    parser = LogParser(sys.argv[1])
     parser.plot()
     pass
