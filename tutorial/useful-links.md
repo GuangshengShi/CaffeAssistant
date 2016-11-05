@@ -1,1 +1,2 @@
 - [wildml](http://www.wildml.com/) A good website providing resources about Deep learning.
+- [Reinforment learning](https://github.com/dennybritz/reinforcement-learning) Code and explain about Reinforment learning.
