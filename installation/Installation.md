@@ -180,6 +180,3 @@ make pycaffe
 ```
 make matcaffe
 ```
-
-有可能matcaffe会报错，说gcc 版本不合适，那就算了吧（早说了在caffe中不用搞Matlab吧）。有强迫症的人，就自己设置一下gcc版本吧。
-吐槽一下：CSDN的markdown今晚抽筋了吧，老是没法正常显示，不知道是触发了什么bug.
